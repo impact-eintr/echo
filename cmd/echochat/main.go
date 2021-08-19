@@ -35,7 +35,6 @@ func init() {
 
 func main() {
 	fmt.Printf(banner, addr)
-
 	r := gin.Default()
 	server := &http.Server{
 		Addr:    addr,
